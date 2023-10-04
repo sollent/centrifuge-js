@@ -93,7 +93,6 @@ export class SseTransport {
       method: 'POST',
       headers: headers,
       body: body,
-      mode: 'cors',
       credentials: 'include',
       cache: 'no-cache'
     }
