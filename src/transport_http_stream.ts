@@ -140,7 +140,7 @@ export class HttpStreamTransport {
       };
       body = initialData;
     }
-
+    // HELLO FETCH
     const fetchOptions = {
       method: 'POST',
       headers: headers,
