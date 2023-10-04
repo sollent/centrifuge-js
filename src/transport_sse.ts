@@ -94,7 +94,7 @@ export class SseTransport {
       headers: headers,
       body: body,
       mode: 'cors',
-      credentials: 'same-origin',
+      credentials: 'include',
       cache: 'no-cache'
     }
     fetchFunc(this.options.emulationEndpoint, fetchOptions);

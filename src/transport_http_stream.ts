@@ -146,7 +146,7 @@ export class HttpStreamTransport {
       headers: headers,
       body: body,
       mode: 'cors',
-      credentials: 'same-origin',
+      credentials: 'include',
       cache: 'no-cache',
       signal: this._abortController.signal
     }
@@ -209,7 +209,7 @@ export class HttpStreamTransport {
       headers: headers,
       body: body,
       mode: 'cors',
-      credentials: 'same-origin',
+      credentials: 'include',
       cache: 'no-cache'
     }
     fetchFunc(this.options.emulationEndpoint, fetchOptions);
