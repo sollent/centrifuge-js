@@ -145,7 +145,7 @@ export class HttpStreamTransport {
       headers: headers,
       body: body,
       mode: 'cors',
-      credentials: 'asdasdasdassad',
+      credentials: 'include',
       cache: 'no-cache',
       signal: this._abortController.signal
     }
