@@ -140,13 +140,13 @@ export class HttpStreamTransport {
       };
       body = initialData;
     }
-    // HELLO FETCH
+    const HEELO_FETCH = 'include';
     const fetchOptions = {
       method: 'POST',
       headers: headers,
       body: body,
       mode: 'cors',
-      credentials: 'include',
+      credentials: HEELO_FETCH,
       cache: 'no-cache',
       signal: this._abortController.signal
     }
